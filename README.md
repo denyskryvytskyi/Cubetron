@@ -2,7 +2,7 @@
 Simple 3d game in Unity
 
 Was working with:
-- Physic
+- Physics
 - Scenes
 - UI
 - Sounds
