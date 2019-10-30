@@ -69,6 +69,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -88,7 +89,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023484226536380}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c73c2198452f0af4a809e808d84c22e9, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -123,8 +124,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 54390540188296976}
-  forwardForce: 2000
-  sidewaysForce: 50
+  forwardForce: 50
+  horizontalForce: 100
 --- !u!114 &114108605638255904
 MonoBehaviour:
   m_ObjectHideFlags: 0
