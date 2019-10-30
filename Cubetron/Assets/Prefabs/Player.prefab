@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 54390540188296976}
-  forwardForce: 50
+  forwardForce: 30
   horizontalForce: 100
 --- !u!114 &114108605638255904
 MonoBehaviour:
